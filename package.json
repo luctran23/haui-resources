@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+  	"start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +12,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
