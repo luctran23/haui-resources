@@ -1,12 +1,18 @@
 extends ./layouts/common.pug
 block content
-	nav.navbar.navbar-expand-lg.navbar-light.bg-light
-		a.navbar-brand(href="#") Haui learning
-		button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNavAltMarkup',aria-controls='navbarNavAltMarkup', aria-expanded='false', aria-label='Toggle navigation')
-			span.navbar-toggler-icon
-		#navbarNavAltMarkup.collapse.navbar-collapse
-			.navbar-nav
-				a.nav-item.nav-link.active(href="#") Home
-					span.sr-only (current)
-				a.nav-item.nav-link(href="#") Subjects
-				a.nav-item.nav-link(href="#") Others
+	nav.navbar.navbar-expand-sm.bg-dark.navbar-dark
+		a.navbar-brand(href='#') Haui Learning
+		ul.navbar-nav.mr-auto
+			li.nav-item.active
+				a.nav-link(href='#') Home
+			li.nav-item
+				a.nav-link(href='#') Subjects
+			li.nav-item
+				a.nav-link(href='#') Others
+		form.form-inline(action='/action_page.php')
+			input.form-control.mr-sm-2(type='text', placeholder='Search')
+			button.btn.btn-success(type='submit') Search
+	.body_content
+		img(src="images/a.jpg" alt="macbook" width="100%" height="613px")
+		h1.slogan Get Document with a touch of a button
+		button.btn.btn-primary.btn_started(type='button') Get started
