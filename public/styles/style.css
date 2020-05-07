@@ -1,0 +1,20 @@
+
+.body_content {
+	position: relative;
+}
+.slogan {
+    position: absolute;
+    top: 26%;
+    left: 45%;
+    color: #fff;
+    font-size: 73px;
+     -webkit-text-stroke: 1px black;
+    font-weight: bold;
+}
+.btn_started {
+	padding: 10px 20px;
+    position: absolute;
+    top: 58%;
+    left: 79%;
+    font-size: 21px;
+}
