@@ -9,8 +9,8 @@ block content
                 a.nav-link(href='/subjects') Subjects
             li.nav-item
                 a.nav-link(href='#') Others
-        form.form-inline(action='/action_page.php')
-            input.form-control.mr-sm-2(type='text', placeholder='Search')
+        form.form-inline(action='/subjects/search', method="GET")
+            input.form-control.mr-sm-2(type='text', placeholder='Search', name='q')
             button.btn.btn-success(type='submit') Search
     .subjects.container
         each card in subjects
