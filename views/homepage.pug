@@ -9,10 +9,10 @@ block content
 				a.nav-link(href='/subjects') Subjects
 			li.nav-item
 				a.nav-link(href='#') Others
-		form.form-inline(action='/action_page.php')
-			input.form-control.mr-sm-2(type='text', placeholder='Search')
+		form.form-inline(action='/subjects/search', method='GET')
+			input.form-control.mr-sm-2(type='text', placeholder='Search', name='q')
 			button.btn.btn-success(type='submit') Search
 	.body_content
 		img(src="images/a.jpg" alt="macbook" width="100%" height="613px")
 		h1.slogan Get Document with a touch of a button
-		button.btn.btn-primary.btn_started(type='button') Get started
+		a.btn.btn-primary.btn_started(href='/subjects', role='button') Get Started
