@@ -10,7 +10,7 @@ block content
             li.nav-item
                 a.nav-link(href='#') Others
         form.form-inline(action='/subjects/search', method="GET")
-            input.form-control.mr-sm-2(type='text', placeholder='Search', name='q')
+            input#input.form-control.mr-sm-2(type='text', placeholder='Search', name='q', value="x")
             button.btn.btn-success(type='submit') Search
     .subjects.container
         each card in subjects
