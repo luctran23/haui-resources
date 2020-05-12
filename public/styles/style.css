@@ -14,12 +14,13 @@
 .btn_started {
 	padding: 10px 20px;
     position: absolute;
-    top: 58%;
+    top: 50%;
     left: 79%;
     font-size: 21px;
+    padding: 10px 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .menu_bar{
         display: flex;
         width: 100%;
@@ -40,4 +41,16 @@
         width: 100%;
         margin: 10px auto;
     }
+    #body_img {
+        width: 260%;
+    }
+    .slogan{
+        font-size: 30px;
+        left: 0%;
+        text-align: center;
+    }
+   .btn_started{
+    top: 40%;
+    left: 64%;
+   }
 }
