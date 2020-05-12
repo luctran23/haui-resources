@@ -2,9 +2,26 @@ doctype html
 html
 	head
 		title Haui Learn
+		meta(name='viewport', content='width=device-width, initial-scale=1')
 		link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css")
 		
 		link(rel="stylesheet" href="styles/style.css")
 		script(src="/events/script.js")
+		script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js')
+		script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js')
+
 	body
+		nav.navbar.navbar-expand-sm.bg-dark.navbar-dark
+			a.navbar-brand(href='/') Haui Learning
+			ul.navbar-nav.mr-auto
+				li.nav-item.active
+					a.nav-link(href='/') Home
+				li.nav-item
+					a.nav-link(href='/subjects') Subjects
+				li.nav-item
+					a.nav-link(href='#') Others
+			form.form-inline(action='/subjects/search', method='GET')
+				input#input.form-control.mr-sm-2(type='text', placeholder='Search', name='q')
+				button.btn.btn-success(type='submit') Search
 		block content

@@ -1,0 +1,70 @@
+{
+  "subjects": [
+    {
+      "id": 1,
+      "name": "XML",
+      "description": "Nội dung môn học này giúp sinh viên có thể dùng XML để lưu trữ hoặc vận chuyển dữ liệu.",
+      "topic": [
+        {
+          "id": 1,
+          "title": "Dạng bài  kiểm tra số 1",
+          "name": "file xsd, xml, xslt."
+        },
+        {
+          "id": 2,
+          "title": "Dạng bài  kiểm tra số 2",
+          "name": "Windows Form sử dụng C#."
+        },
+        {
+          "id": 3,
+          "title": "Dạng bài thi kết thúc học phần.",
+          "name": "Bài kiểm tra số 1 và 2."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Java",
+      "description": "Nội dung môn học này giúp sinh viên phát triển thêm về tư duy hướng đối tượng. ",
+      "topic": [
+        {
+          "id": 1,
+          "title": "Dạng bài  kiểm tra số 1",
+          "name": "bài tập căn bản trong Java."
+        },
+        {
+          "id": 2,
+          "title": "Dạng bài  kiểm tra số 2",
+          "name": "hướng đối tượng trong java."
+        },
+        {
+          "id": 3,
+          "title": "Dạng bài thi kết thúc học phần.",
+          "name": "kết nối bài làm với cơ sở dữ liệu."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Photoshop",
+      "description": "Nội dung môn học dạy cho sinh viên cách sử dụng Photoshop cơ bản.",
+      "topic": [
+        {
+          "id": 1,
+          "title": "Dạng bài  kiểm tra số 1",
+          "name": "Thao tác với lớp trong Photoshop"
+        },
+        {
+          "id": 2,
+          "title": "Dạng bài  kiểm tra số 2",
+          "name": "thao tác hiệu chỉnh ảnh."
+        },
+        {
+          "id": 3,
+          "title": "Dạng bài thi kết thúc học phần.",
+          "name": "bài kiểm tra số 1 và 2."
+        }
+      ]
+    }
+  ]
+}
