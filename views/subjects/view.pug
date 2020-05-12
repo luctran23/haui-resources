@@ -1,0 +1,10 @@
+extends ../layouts/common.pug
+block content
+    - var topic = subject.topic;
+    .container.mt-5
+        each card in topic
+            .card.mb-2
+                .card-body
+                    h4.card-title #{card.title}
+                    p.card-text Bài kiểm tra số 1 bao gồm các dạng bài có liên quan đến #{card.name}
+                    a.card-link(href='#') Download

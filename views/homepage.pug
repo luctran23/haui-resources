@@ -1,17 +1,5 @@
 extends ./layouts/common.pug
 block content
-	nav.navbar.navbar-expand-sm.bg-dark.navbar-dark
-		a.navbar-brand(href='#') Haui Learning
-		ul.navbar-nav.mr-auto
-			li.nav-item.active
-				a.nav-link(href='#') Home
-			li.nav-item
-				a.nav-link(href='/subjects') Subjects
-			li.nav-item
-				a.nav-link(href='#') Others
-		form.form-inline(action='/subjects/search', method='GET')
-			input#input.form-control.mr-sm-2(type='text', placeholder='Search', name='q')
-			button.btn.btn-success(type='submit') Search
 	.body_content
 		img(src="images/a.jpg" alt="macbook" width="100%" height="613px")
 		h1.slogan Get Document with a touch of a button
