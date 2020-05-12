@@ -1,0 +1,9 @@
+extends ../layouts/common.pug
+block content
+    .container
+        each item in others
+            .card.mt-5
+                .card-body
+                    h4.card-title= item.title
+                    p.card-text= item.description
+                    a.card-link(href='#') Download

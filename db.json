@@ -65,6 +65,45 @@
           "name": "bài kiểm tra số 1 và 2."
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "Thiết kế web",
+      "description": "Nội dung môn học giúp cho sinh viên tạo được 1 website theo ý",
+      "topic": [
+        {
+          "id": 1,
+          "title": "Dạng bài  kiểm tra số 1",
+          "name": "Sử dụng HTML, CSS để tạo lại giao diện cho website."
+        },
+        {
+          "id": 2,
+          "title": "Dạng bài  kiểm tra số 2",
+          "name": "Sử dụng HTML, CSS và Javascript để kiểm soát dữ liệu."
+        },
+        {
+          "id": 3,
+          "title": "Dạng bài thi kết thúc học phần.",
+          "name": "bài kiểm tra số 1 và 2."
+        }
+      ]
+    }
+  ],
+  "others": [
+    {
+      "id": 1,
+      "title": "Thực hành tạo 1 chrome extension (html, css, js)",
+      "description": "Sau khi học xong môn Thiết kế Web thì chúng ta có thể làm được 1 extension cho riêng mình"
+    },
+    {
+      "id": 2,
+      "title": "Thực hành tạo 1 giao diện web site (html, css) ",
+      "description": "Sau khi học xong môn Thiết kế Web thì chúng ta có thể làm được 1 giao diện Website"
+    },
+    {
+      "id": 3,
+      "title": "Thực hành tạo 1 to-do list (html, css, js)",
+      "description": "Sau khi học xong môn Thiết kế Web thì chúng ta có thể làm được 1 to-do list cho riêng mình"
     }
   ]
 }

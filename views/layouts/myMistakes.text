@@ -1,0 +1,8 @@
+1. Included the style.css file with the wrong path.
+---> the WRONG path is: link(rel="stylesheet" href="styles/style.css")
+---> the RIGHT path is: link(rel="stylesheet" href="/styles/style.css")
+
+and the browser show this error: 
+Refused to apply style from 'http://localhost:3000/subjects/styles/style.css' 
+because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+

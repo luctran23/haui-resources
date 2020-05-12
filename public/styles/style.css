@@ -18,3 +18,26 @@
     left: 79%;
     font-size: 21px;
 }
+
+@media only screen and (max-width: 600px) {
+    .menu_bar{
+        display: flex;
+        width: 100%;
+        text-align: center;
+    }
+    .search_form {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    #input {
+        width: auto;
+    }
+    .web_title {
+        background: orange;
+        text-align: center;
+        padding: 10px 20px;
+        width: 100%;
+        margin: 10px auto;
+    }
+}
