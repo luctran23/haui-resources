@@ -5,4 +5,6 @@
 and the browser show this error: 
 Refused to apply style from 'http://localhost:3000/subjects/styles/style.css' 
 because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2. I got this error: db is not defined when I clicked on others link
+cause: I forgot create the 'others' route for the website
 

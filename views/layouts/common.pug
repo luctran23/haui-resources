@@ -17,11 +17,11 @@ html
 			ul.navbar-nav.mr-auto.menu_bar
 				li.nav-item.active
 					a.nav-link(href='/') Home
-				li.nav-item
+				li.nav-item.active
 					a.nav-link(href='/subjects') Subjects
-				li.nav-item
+				li.nav-item.active
 					a.nav-link(href='/others') Others
 			form.search_form.form-inline(action='/subjects/search', method='GET')
-				input#input.form-control.mr-sm-2(type='text', placeholder='subject name', name='q')
+				input#input.form-control.mr-sm-2(type='text', placeholder='Search', name='q')
 				button.btn.btn-success(type='submit') Search
 		block content

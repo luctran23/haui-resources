@@ -41,16 +41,15 @@
         width: 100%;
         margin: 10px auto;
     }
-    #body_img {
-        width: 260%;
-    }
+
     .slogan{
-        font-size: 30px;
+        font-size: 35px;
         left: 0%;
         text-align: center;
     }
    .btn_started{
     top: 40%;
-    left: 64%;
+    left: 60%;
+    padding: 7px;
    }
 }
